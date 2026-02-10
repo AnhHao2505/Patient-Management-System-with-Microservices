@@ -22,7 +22,7 @@ public class Patient {
     private String email;
 
     @NotNull
-    private String phone;
+    private String address;
 
     @NotNull
     private LocalDate dateOfBirth;
@@ -54,12 +54,12 @@ public class Patient {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getAddress() {
+        return address;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public LocalDate getDateOfBirth() {
